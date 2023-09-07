@@ -1,0 +1,22 @@
+# IntelliJ IDEA files
+.idea/
+
+# Compiled class files
+out/
+target/
+
+# User-specific files and settings
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Logs and databases
+*.log
+*.log.*
+*.sqlite
+*.db
+
+# Maven-specific files and directories
+target/
+.idea_modules/
