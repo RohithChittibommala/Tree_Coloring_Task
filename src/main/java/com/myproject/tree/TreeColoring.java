@@ -58,7 +58,6 @@ public class TreeColoring {
             boundaryElements.add(node);
             return;
         }
-        node.setColor('G');
         if (node.left != null) {
             colorLeafNodes(node.left, boundaryElements);
         }
