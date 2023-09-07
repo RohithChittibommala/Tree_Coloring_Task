@@ -3,7 +3,7 @@
 ## Algorithm Explanation
 
 ### Overview
-This project implements an algorithm to color the nodes of a binary tree with 'B' (Black) and 'R' (Red) colors. The algorithm follows a depth-first traversal approach to color the nodes in a specific pattern.
+This project implements an algorithm to color the nodes of a binary tree with 'B' (Black), 'G' (Green) and 'R' (Red) colors. The algorithm follows a depth-first traversal approach to color the nodes in a specific pattern.
 
 ### Algorithm Steps
 1. Start at the root node of the binary tree.
@@ -15,10 +15,10 @@ This project implements an algorithm to color the nodes of a binary tree with 'B
 
 ### Assumptions
 - The input is assumed to be a valid binary tree.
-- The binary tree can have both positive and negative integer values as node values.
 - The algorithm handles null nodes gracefully, as it checks for null nodes before processing.
 - The coloring pattern alternates between 'B' and 'R' starting from the root node, ensuring that adjacent nodes have different colors.
+- The Default color of node will be set to 'G';
 
 ### Complexity Analysis
-- Time Complexity: The algorithm performs a depth-first traversal of the binary tree, visiting each node once. Therefore, the time complexity is O(n), where n is the number of nodes in the tree.
+- Time Complexity: The algorithm performs a depth-first traversal of the binary tree. Therefore, the time complexity is O(n), where n is the number of nodes in the tree.
 - Space Complexity: The space complexity is O(n), where n is the number of nodes in the tree, due to the space used by the `boundaryNodes` ArrayList to store boundary nodes.
