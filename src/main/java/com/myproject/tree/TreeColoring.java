@@ -5,6 +5,9 @@ import java.util.List;
 
 public class TreeColoring {
     public static void colorTree(Node root) {
+
+        if(root == null) return;
+
         List<Node> boundaryNodes = new ArrayList<>();
         boundaryNodes.add(root);
 
